@@ -18,7 +18,7 @@ const Service = () => {
                 serviceData.map((item)=>(
                     <div className='flex flex-col items-center justify-center pb-6' key={item.id}>
                     <div>
-                        <Image src={item.imageUrl} alt='image' width={80}/>
+                        <Image src={item.imageUrl} alt='images services' width={80}/>
                     </div>
                     <h6 className='font-bold text-[#212245] text-xl py-2'>{item.display}</h6>
                     <p className='px-[3rem] text-center'>{item.desc}</p>
