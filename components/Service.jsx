@@ -15,7 +15,7 @@ const Service = () => {
       <div>
         <div className='flex flex-col px-[2rem] pt-8 md:flex-row'>
             {
-                serviceData.map((item,index)=>(
+                serviceData.map((item)=>(
                     <div className='flex flex-col items-center justify-center pb-6' key={item.id}>
                     <div>
                         <Image src={item.imageUrl} alt='image' width={80}/>

@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 
 const Checkout = () => {
 
-  const {cartItems,subTotal,shipping,tax,total} =useSelector((state)=>state.cart)
+  const {subTotal,shipping,total} =useSelector((state)=>state.cart)
 
 
   return (

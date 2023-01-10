@@ -24,8 +24,6 @@ const HotPizza = () => {
         <div>
         <h6 className='font-bold text-[#212245] text-center pb-2'>{item.title}</h6>
         <div className='flex justify-between items-center gap-8 md:gap-10'>
-            {/* <h6 className='text-[#df2020] font-bold flex'>$ {item.price}</h6> */}
-            {/* <button className='bg-[#df2020] text-white rounded py-1 px-3' onClick={()=>addToCardhandler({quantity:1})}>Add to Cart</button> */}
             </div>
         </div>
       </div>

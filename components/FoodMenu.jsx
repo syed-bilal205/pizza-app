@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import {products} from '../public/data/data'
-import Image from 'next/image'
 import {BsSearch} from 'react-icons/bs'
 import Product from './Product'
 import { useDispatch } from 'react-redux'

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import logo from '../public/assets/res-logo.png'
 import Link from 'next/link'
 import {BsBasketFill} from 'react-icons/bs'

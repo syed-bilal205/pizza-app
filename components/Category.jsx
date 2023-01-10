@@ -9,7 +9,7 @@ const Category = () => {
       {
         categoryData.map((item)=>(
             <>
-                <div className='flex items-center justify-center gap-3 bg-[#fde4e4] w-40 h-16 rounded ease-in duration-500 hover:-translate-y-3 cursor-pointer'>
+                <div key={item.id} className='flex items-center justify-center gap-3 bg-[#fde4e4] w-40 h-16 rounded ease-in duration-500 hover:-translate-y-3 cursor-pointer'>
                     <div>
                         <Image src={item.imageUrl} alt='image' width={50}/>
                     </div>

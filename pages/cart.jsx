@@ -1,6 +1,5 @@
 import React from 'react'
 import CommonBanner from '../components/CommonBanner'
-import Image from 'next/image'
 import Link from 'next/link'
 import { useSelector,useDispatch } from 'react-redux'
 import CartItem from '../components/CartItem'

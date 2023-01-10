@@ -61,8 +61,6 @@ const Popular = () => {
         <Product key={item.id} imgSrc={item.image01} title={item.title} price={item.price} handler={addToCardhandler} id={item.id}/>
       ))
     }
-      {/* <Product allProduct={allProduct} handler={addToCardhandler}/> */}
-    
   </div>
     </>
   )
