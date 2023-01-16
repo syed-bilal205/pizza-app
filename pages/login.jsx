@@ -14,8 +14,8 @@ const Login = () => {
         </div>
         <div className='pt-4'>
         <Link href='/signin'>
-        <p>Dont have an account? 
-        <span> Create an account</span></p>
+        <p>Dont have an account 
+        <span>| Create an account</span></p>
         </Link>
         </div>
       </div>
