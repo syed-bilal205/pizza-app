@@ -7,7 +7,7 @@ import networkImg from '../public/assets/network.png'
 const Testimonial = () => {
   return (
     <>
-        <div className='flex flex-col items-center justify-center px-[2rem] pt-8 md:flex-row md:px-[8rem]'>
+        <div className='bg-white flex flex-col items-center justify-center px-[2rem] pt-8 md:flex-row md:px-[8rem]'>
             <div className='flex flex-col'>
                 <span className='text-[#df2020] font-bold text-xl'>
                     Testimonial

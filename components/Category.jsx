@@ -5,7 +5,7 @@ import {categoryData} from '../public/data/data'
 const Category = () => {
   return (
     <>
-        <div className='flex gap-6 flex-wrap px-[2rem] justify-center pt-4 md:gap-20 pb-2 md:pt-8'>
+        <div className='bg-white flex gap-6 flex-wrap px-[2rem] justify-center pt-4 md:gap-20 pb-2 md:pt-8'>
       {
         categoryData.map((item)=>(
             <>

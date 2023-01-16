@@ -8,8 +8,8 @@ import Link from 'next/link'
 const Hero = () => {
   return (
     <>
-      <div className=' flex flex-col justify-between items-center px-[2rem]   md:px-[8rem] md:flex-row'>
-        <div className='mt-16 flex flex-col justify-center items-flex-start'>
+      <div className='bg-white flex flex-col justify-between items-center px-2  md:px-[8rem] md:flex-row'>
+        <div className='pt-6 flex flex-col justify-center items-flex-start'>
             <h4 className='text-[#212245] font-medium text-base tracking-wide pb-1'>Easy way to make an order</h4>
             <h1 className='text-[#df2020] font-bold text-5xl pb-2'>HUNGRY?<span className='text-[#212245] text-4xl'>Just wait</span></h1>
             <h1 className='text-[#212245] text-6xl font-bold'>food at <span className='text-[#df2020] font-bold text-6xl'>your door</span></h1>

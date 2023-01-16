@@ -6,7 +6,7 @@ import {AiOutlineCheckCircle} from 'react-icons/ai'
 const Taste = () => {
   return (
     <>
-      <div className='px-[2rem] flex flex-col justify-center  items-center  md:flex-row md:justify-between md:px-[6rem]'>
+      <div className='bg-white px-[2rem] flex flex-col justify-center  items-center  md:flex-row md:justify-between md:px-[6rem]'>
         <div>
             <Image alt='image' src={LocationImg}/>
         </div>

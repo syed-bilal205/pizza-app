@@ -7,7 +7,7 @@ import {FiSend} from 'react-icons/fi'
 const Footer = () => {
   return (
     <>
-      <div className='px-[2rem] flex flex-col  justify-between gap-4 bg-[#fde4e4] md:flex-row md:px-[8rem] md:items-center'>
+      <div className='px-4 flex flex-col flex-wrap  justify-between gap-4 bg-[#fde4e4] md:flex-row md:px-[8rem] md:items-center'>
         <div className='pt-4'>
             <Image src={logo} alt='image' width={60}/>
             <span className='font-medium text-base'>Tasty Treat</span>
@@ -26,12 +26,11 @@ const Footer = () => {
             <h6 className='font-bold py-2'>Phone: 0900678601</h6>
             <h6 className='font-bold'>Email:example@gmail.com</h6>
         </div>
-        <div>
+        <div className='flex flex-col justify-center'>
             <h6 className='font-bold'>Newsletter</h6>
             <span className='text-gray-400'>Subscribe our newsletter</span>
             <div className='py-4 flex items-center'>
             <input className='bg-transparent border rounded focus:none outline-none border-black px-6 py-2 relative' type="email" placeholder='Enter your email' />
-            <FiSend size={24} className='absolute left-[14rem] md:left-[74rem] text-[#df2020] rounded'/>
             </div>
         </div>
       </div>

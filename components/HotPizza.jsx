@@ -7,11 +7,11 @@ const HotPizza = () => {
 
   return (
     <>
-        <h2 className='pt-10 text-4xl font-bold text-[#212245] text-center md:pt-2'>Hot Pizza</h2>
-      <div className='px-[2rem] pt-6 flex flex-col justify-center items-center md:flex-row gap-8'>
+        <h2 className='bg-white pt-4 text-4xl font-bold text-[#212245] text-center md:pt-2'>Hot Pizza</h2>
+      <div className='bg-white px-[2rem] pt-6 flex flex-col justify-center items-center md:flex-row gap-8'>
         <Link href='/food'>
 
-        <div className='flex flex-col justify-center items-center md:flex-row gap-8'>
+        <div className=' flex flex-col justify-center items-center md:flex-row gap-8'>
 
        
         {

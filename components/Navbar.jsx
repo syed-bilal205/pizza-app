@@ -21,10 +21,12 @@ const Navbar = () => {
 
   return (
     <>
-    <div className='flex justify-between items-center sticky top-0  w-full px-[2rem] py-1 box-Shadow z-8 z-[10] bg-white md:px-[8rem]'>
+    <div className='flex justify-between items-center sticky top-0  w-full px-2 py-1 box-Shadow z-8 z-[10] bg-white md:px-[8rem]'>
       <div className='flex flex-col items-center '>
+      <Link href={'/'}>
         <Image src={logo} alt="" width={60}/>
         <h5 className='font-medium text-base'>Tasty Treat</h5>
+        </Link>
       </div>
         <div>
             <ul className='sm:flex hidden gap-10 justify-center items-center text-[#212245] font-medium text-base pt-4'>
@@ -51,7 +53,7 @@ const Navbar = () => {
             
         </div>
         <div className= {nav ? 
-        'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-[#ffffff] text-center ease-in duration-300 text-black text-4xl' :
+        'sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-[100%] h-screen bg-[#ffffff] text-center ease-in duration-300 text-black text-4xl' :
          'sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-[#ffffff] text-center ease-in duration-300 text-black text-4xl'
         }>
             <ul>

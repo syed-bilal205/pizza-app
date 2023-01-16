@@ -17,7 +17,7 @@ const FoodMenu = () => {
 
   return (
     <>
-      <div className='p-[2rem] flex flex-col items-center gap-4 md:items-start'>
+      <div className='bg-white p-[2rem] flex flex-col items-center gap-4 md:items-start'>
         <div className='flex items-center justify-end px-10'>
             <input type="text" placeholder="I'm Looking For" value={search}
             onChange={(e) => setSearch(e.target.value)}
